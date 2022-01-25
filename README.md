@@ -1,24 +1,11 @@
-# README
+# Rails Crypto Wallet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first Ruby on Rails project being pushed with Git to GitHub. This is a pseudo-Cryptocurrency wallet.
 
-Things you may want to cover:
+Things to cover:
 
-* Ruby version
+* This project is being built using Ruby version 3.0.0 (asdf)
 
-* System dependencies
+* SQLite Database
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I hope you enjoy using it. No expectations for final version.
