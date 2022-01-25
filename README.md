@@ -9,3 +9,5 @@ Things to cover:
 * SQLite Database
 
 I hope you enjoy using it. No expectations for final version.
+
+I will be uploading this again to verify something.
