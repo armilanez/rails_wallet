@@ -1,10 +1,10 @@
 <p style="color: green"><%= notice %></p>
-
+<a href=/welcome/index>Go back</a>
 <h1>Coins</h1>
 
 <div id="coins">
-  <% @coins.each do |coin| %>
-    <%= render coin %>
+  <% @coins.each do |coin| %> 
+    <%= render(coin) %> <!-- implicitly calling _coin.html.erb -->
     <p>
       <%= link_to "Show this coin", coin %>
     </p>
