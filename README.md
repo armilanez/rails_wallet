@@ -11,3 +11,5 @@ Things to cover:
 I hope you enjoy using it. No expectations for final version.
 
 I will be uploading this again to verify something.
+
+Eu fiz essa alteração no dia 25/02/2022
