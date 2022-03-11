@@ -1,10 +1,11 @@
 <h1>Hey, this is your crypto wallet!</h1>
-<hr>
+<p>
 <h2>You're acessing this website at <%= br_date(Date.today) %>.</h2>
 <ul>
     <li>
         <%= link_to "Register coins here!", coins_path %>
         <p>Você está em ambiente de <strong><%=env_pt%></strong></p>
-        O nome de instancia usado foi @meunome
+        The used instance name was <%=@my_name%>
     </li>
 </ul>
+</p>

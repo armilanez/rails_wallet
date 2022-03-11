@@ -5,9 +5,7 @@
 <div id="coins">
   <% @coins.each do |coin| %> 
     <%= render(coin) %> <!-- implicitly calling _coin.html.erb -->
-    <p>
-      <%= link_to "Show this coin", coin %>
-    </p>
+    <hr>
   <% end %>
 </div>
 
