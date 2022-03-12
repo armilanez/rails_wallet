@@ -12,4 +12,4 @@ I hope you enjoy using it. No expectations for final version.
 
 I will be uploading this again to verify something.
 
-Eu fiz essa alteração no dia 25/02/2022
+This README file was updated at 03/12/2022
