@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+puts("Registering coins...")
+
 Coin.create!(
     description: "Bitcoin",
     acronym: "BTC",
@@ -35,3 +37,5 @@ Coin.create!(
     acronym: "SAITAMA",
     image_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/10498.png"
 )
+
+puts("Coins registered successfully.")
