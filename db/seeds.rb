@@ -6,36 +6,46 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-puts("Registering coins...")
+spinner = TTY::Spinner.new("Registering coins... [:spinner]")
+spinner.auto_spin
 
-Coin.create!(
-    description: "Bitcoin",
-    acronym: "BTC",
-    image_url: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Logo-Bitcoin-PNG.png"
-)
 
-Coin.create!(
-    description: "Ethereum",
-    acronym: "ETH",
-    image_url: "https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png"
-)
+coins = [
 
-Coin.create!(
-    description: "Shiba Inu",
-    acronym: "SHIB",
-    image_url: "https://w7.pngwing.com/pngs/929/384/png-transparent-shib-coin-shib-coin-logo-shiba-token.png"
-)
+        {
+        description: "Bitcoin",
+        acronym: "BTC",
+        image_url: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Logo-Bitcoin-PNG.png"
+        },
 
-Coin.create!(
-    description: "Dogecoin",
-    acronym: "DOGE",
-    image_url: "https://img2.gratispng.com/20180403/rfw/kisspng-dogecoin-cryptocurrency-digital-currency-doge-5ac3a787122c26.7280659415227718470745.jpg"
-)
+        {
+        description: "Ethereum",
+        acronym: "ETH",
+        image_url: "https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png"
+        },
 
-Coin.create!(
-    description: "Saitama",
-    acronym: "SAITAMA",
-    image_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/10498.png"
-)
+        {
+        description: "Shiba Inu",
+        acronym: "SHIB",
+        image_url: "https://w7.pngwing.com/pngs/929/384/png-transparent-shib-coin-shib-coin-logo-shiba-token.png"
+        },
 
-puts("Coins registered successfully.")
+        {
+        description: "Dogecoin",
+        acronym: "DOGE",
+        image_url: "https://img2.gratispng.com/20180403/rfw/kisspng-dogecoin-cryptocurrency-digital-currency-doge-5ac3a787122c26.7280659415227718470745.jpg"
+        },
+
+        {
+        description: "Saitama",
+        acronym: "SAITAMA",
+        image_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/10498.png"
+        }
+
+    ]
+
+    coins.each do |coin|
+        Coin.find_or_create_by!(coin)
+    end
+
+spinner.success("(Success!))")
