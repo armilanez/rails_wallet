@@ -8,6 +8,8 @@ namespace :dev do
     show_spinner("Creating database") {%x(rails db:create)}
 
     show_spinner("Migrating database") {%x(rails db:migrate)}
+
+    %x(rails dev:add_mining_types)
   
     %x(rails dev:add_coins)
       
@@ -24,31 +26,36 @@ end
               {
               description: "Bitcoin",
               acronym: "BTC",
-              image_url: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Logo-Bitcoin-PNG.png"
+              image_url: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Logo-Bitcoin-PNG.png",
+              mining_type: MiningType.find_by(acronym: 'PoW')
               },
 
               {
               description: "Ethereum",
               acronym: "ETH",
-              image_url: "https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png"
+              image_url: "https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png",
+              mining_type: MiningType.all.sample
               },
 
               {
               description: "Shiba Inu",
               acronym: "SHIB",
-              image_url: "https://w7.pngwing.com/pngs/929/384/png-transparent-shib-coin-shib-coin-logo-shiba-token.png"
+              image_url: "https://w7.pngwing.com/pngs/929/384/png-transparent-shib-coin-shib-coin-logo-shiba-token.png",
+              mining_type: MiningType.all.sample
               },
 
               {
               description: "Dogecoin",
               acronym: "DOGE",
-              image_url: "https://img2.gratispng.com/20180403/rfw/kisspng-dogecoin-cryptocurrency-digital-currency-doge-5ac3a787122c26.7280659415227718470745.jpg"
+              image_url: "https://img2.gratispng.com/20180403/rfw/kisspng-dogecoin-cryptocurrency-digital-currency-doge-5ac3a787122c26.7280659415227718470745.jpg",
+              mining_type: MiningType.all.sample
               },
 
               {
               description: "Saitama",
               acronym: "SAITAMA",
-              image_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/10498.png"
+              image_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/10498.png",
+              mining_type: MiningType.all.sample
               }
 
           ]
