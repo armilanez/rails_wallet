@@ -3,9 +3,14 @@
 <h2>You're acessing this website at <%= br_date(Date.today) %>.</h2>
 <ul>
     <li>
-        <%= link_to "Register coins here!", coins_path %>
-        <p>Você está em ambiente de <strong><%=env_pt%></strong></p>
-        The used instance name was <%=@my_name%>
+        <%= link_to "Register coins here!", coins_path %>            
     </li>
+        
+    <li>
+        <%= link_to "Register Mining Types here!", mining_types_path %>
+    </li>
+
+    <p>You are in the <strong><%=env_en%></strong> environment.</p>
+    <p>Você está em ambiente de <strong><%=env_pt%></strong>.</p>
 </ul>
 </p>
