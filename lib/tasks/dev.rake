@@ -63,6 +63,13 @@ end
               acronym: "BCH",
               image_url: "https://s2.coinmarketcap.com/static/img/coins/200x200/1831.png",
               mining_type: MiningType.all.sample
+              },
+
+              {
+              description: "Theter",
+              acronym: "USDT",
+              image_url: "https://s2.coinmarketcap.com/static/img/coins/200x200/825.png",
+              mining_type: MiningType.all.sample
               }
 
           ]
