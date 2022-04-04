@@ -56,6 +56,13 @@ end
               acronym: "SAITAMA",
               image_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/10498.png",
               mining_type: MiningType.all.sample
+              },
+
+              {
+              description: "Bitcoin Cash",
+              acronym: "BCH",
+              image_url: "https://s2.coinmarketcap.com/static/img/coins/200x200/1831.png",
+              mining_type: MiningType.all.sample
               }
 
           ]
