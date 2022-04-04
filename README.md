@@ -8,8 +8,6 @@ Things to cover:
 
 * SQLite Database
 
-I hope you enjoy using it. No expectations for final version.
+* The Rails version of this project is 7.0.1
 
-I will be uploading this again to verify something.
-
-This README file was updated at 03/12/2022
+I hope you enjoy using it. No deadline for final version.
