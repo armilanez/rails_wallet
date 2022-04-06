@@ -31,3 +31,12 @@
 
 en:
   hello: "Hello world"
+  welcome: "Hey, this is your crypto wallet!"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+  description: "Description"
+  acronym: "Acronym"
+  miningtype: "Mining type"
+  language: "English"

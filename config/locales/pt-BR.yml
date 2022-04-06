@@ -1,0 +1,12 @@
+pt-BR:
+  hello: "Olá mundo!"
+  welcome: "Olá, essa é sua Carteira de Critptomoedas!"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+  description: "Descrição"
+  acronym: "Sigla"
+  show: "Mostrar"
+  miningtype: "Tipo de mineração"
+  language: "Português do Brasil"

@@ -1,5 +1,9 @@
 module ApplicationHelper
 
+    def locale
+        I18n.locale == :en ? "English" : "Portugês do Brasil"
+    end
+
     def br_date us_date
         us_date.strftime("%d/%m/%Y")
     end

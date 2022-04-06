@@ -1,6 +1,6 @@
-<h1>Hey, this is your crypto wallet!</h1>
+<h1><%= t('welcome') %></h1>
 <p>
-<h2>You're acessing this website at <%= br_date(Date.today) %>.</h2>
+<p>You're acessing this website at <strong><%= l(Date.today) %></strong>. The language set is <strong><%= t('language') %></strong>.</p>
 <ul>
     <li>
         <%= link_to "Register coins here!", coins_path %>            
