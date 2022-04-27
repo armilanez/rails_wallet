@@ -1,0 +1,2 @@
+2022-04-27 16:31:34.641 -03 [1370] FATAL:  lock file "postmaster.pid" already exists
+2022-04-27 16:31:34.641 -03 [1370] HINT:  Is another postmaster (PID 143) running in data directory "/home/arthur/.asdf/installs/postgres/13.3/data"?
