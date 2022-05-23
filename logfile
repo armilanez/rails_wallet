@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+2022-04-27 17:44:32.974 -03 [5883] FATAL:  lock file "postmaster.pid" already exists
+2022-04-27 17:44:32.974 -03 [5883] HINT:  Is another postmaster (PID 143) running in data directory "/home/arthur/.asdf/installs/postgres/13.3/data"?
+2022-04-28 12:21:47.747 -03 [397] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-04-28 12:21:47.753 -03 [397] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-04-28 12:21:47.758 -03 [397] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-04-28 12:21:47.772 -03 [398] LOG:  database system was interrupted; last known up at 2022-04-27 13:40:43 -03
+2022-04-28 12:21:48.065 -03 [398] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-04-28 12:21:48.069 -03 [398] LOG:  redo starts at 0/1696870
+2022-04-28 12:21:48.069 -03 [398] LOG:  invalid record length at 0/16968A8: wanted 24, got 0
+2022-04-28 12:21:48.069 -03 [398] LOG:  redo done at 0/1696870
+2022-04-28 12:21:48.101 -03 [397] LOG:  database system is ready to accept connections
+2022-04-28 12:29:43.752 -03 [1068] FATAL:  lock file "postmaster.pid" already exists
+2022-04-28 12:29:43.752 -03 [1068] HINT:  Is another postmaster (PID 397) running in data directory "/home/arthur/.asdf/installs/postgres/13.3/data"?
+2022-04-28 12:37:43.656 -03 [1514] FATAL:  lock file "postmaster.pid" already exists
+2022-04-28 12:37:43.656 -03 [1514] HINT:  Is another postmaster (PID 397) running in data directory "/home/arthur/.asdf/installs/postgres/13.3/data"?
+2022-04-28 12:44:54.920 -03 [2718] FATAL:  lock file "postmaster.pid" already exists
+2022-04-28 12:44:54.920 -03 [2718] HINT:  Is another postmaster (PID 397) running in data directory "/home/arthur/.asdf/installs/postgres/13.3/data"?
+2022-04-28 17:59:07.903 -03 [146] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-04-28 17:59:07.908 -03 [146] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-04-28 17:59:07.914 -03 [146] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-04-28 17:59:07.930 -03 [147] LOG:  database system was interrupted; last known up at 2022-04-28 12:21:48 -03
+2022-04-28 17:59:08.387 -03 [147] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-04-28 17:59:08.397 -03 [147] LOG:  redo starts at 0/1696920
+2022-04-28 17:59:08.397 -03 [147] LOG:  invalid record length at 0/1696958: wanted 24, got 0
+2022-04-28 17:59:08.397 -03 [147] LOG:  redo done at 0/1696920
+2022-04-28 17:59:08.430 -03 [146] LOG:  database system is ready to accept connections
+2022-05-02 14:02:22.899 -03 [191] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-05-02 14:02:22.907 -03 [191] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-02 14:02:22.926 -03 [191] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-05-02 14:02:22.964 -03 [192] LOG:  database system was interrupted; last known up at 2022-04-28 17:59:08 -03
+2022-05-02 14:02:23.978 -03 [192] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-05-02 14:02:23.982 -03 [192] LOG:  redo starts at 0/16969D0
+2022-05-02 14:02:23.982 -03 [192] LOG:  invalid record length at 0/1696A08: wanted 24, got 0
+2022-05-02 14:02:23.982 -03 [192] LOG:  redo done at 0/16969D0
+2022-05-02 14:02:24.007 -03 [191] LOG:  database system is ready to accept connections
+=======
+2022-04-27 16:31:34.641 -03 [1370] FATAL:  lock file "postmaster.pid" already exists
+2022-04-27 16:31:34.641 -03 [1370] HINT:  Is another postmaster (PID 143) running in data directory "/home/arthur/.asdf/installs/postgres/13.3/data"?
+>>>>>>> a710acb7a418faec99f07b404230f5e9b024381f
